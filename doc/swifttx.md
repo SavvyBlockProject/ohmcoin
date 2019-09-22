@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via SwiftX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftX
 
-This mechanism has been integrated into Bitcore-Node-PHore which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/theohmproject/insight-api-ohmcoin#web-socket-api](https://github.com/theohmproject/insight-api-ohmcoin#web-socket-api) 
-* API: [https://github.com/theohmproject/insight-api-ohmcoin#swifttx-transactions](https://github.com/theohmproject/insight-api-ohmcoin#swifttx-transactions) 
+This mechanism has been integrated into Bitcore-Node-Ohmocoin which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/theohmproject/insight-api-ohmcoin#web-socket-api](https://github.com/theohmproject/insight-api-ohmcoin#web-socket-api)
+* API: [https://github.com/theohmproject/insight-api-ohmcoin#swifttx-transactions](https://github.com/theohmproject/insight-api-ohmcoin#swifttx-transactions)
 
 ####Command line option
 
